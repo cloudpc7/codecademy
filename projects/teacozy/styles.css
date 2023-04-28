@@ -1,0 +1,80 @@
+body {
+    font-family: Helvetica, sans-serif;
+    background-color: black;
+    color: seashell;
+    margin: 15px;
+    opacity: 0.9;
+}
+
+.navbar {
+    display: inline-flex;
+    height: 69px;
+    width: 100%;
+    justify-content: center;
+    border-bottom: 1px solid seashell;
+}
+
+.tea-logo {
+    height: 50px;
+    margin-right: auto;
+    margin-top: 5px;
+}
+
+.nav-links {
+    display: inline-flex;
+    margin-left: auto;
+}
+
+
+.navbar ul li {
+    display: inline-flex;
+    text-decoration: underline;
+    font-size: 22px;
+    padding-left: 18px;
+    color: seashell;
+
+}
+
+.tea-background {
+    height: 100%;
+}
+
+.mission-statement {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    height: 700px;
+}
+
+.statement {
+    position: relative;
+    bottom: 55%;
+    background-color: black;
+    width: 100%;
+    text-align: center;
+}
+
+.tea-month {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto 0;
+}
+
+.tea {
+    flex-wrap:wrap;
+    display: inline-flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.tea-items {
+    height: 200px;
+    width: 300px;
+    margin: 0;
+}
+
+.location {
+    height: 500px;
+}
